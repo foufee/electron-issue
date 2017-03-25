@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main",
+    "build": "webpack --config webpack.config.js  --progress --profile --colors"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "electron": "^1.6.2",
+    "file-loader": "^0.10.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.1"
+  },
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "calipers": "^2.0.0",
+    "calipers-jpeg": "^2.0.0",
+    "react": "^0.14.8",
+    "react-canvas": "^1.2.1",
+    "react-dom": "^0.14.8",
+    "transform-loader": "^0.2.4"
+  }
+}
